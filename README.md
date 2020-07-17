@@ -25,5 +25,5 @@ All work was done using python 3.6.
 9. Step (8) was repeated 100 times and the predicted labels were added to the results table.
 10. The results of step (9) were averaged: if the average value are <= 1.5 the label class=1 is set, if the average value are > 1.5  the label class=2 is set.
 
-(B) cross subject classification (P09, P10) 
+(B) cross subject classification (P09, P10)  
 There was used the same pipeline as in (A), but for training/validation of FBCSP-SVM classifier, we used the all labeled data of patients P01-P08, (80 trials * 8 subjects) = 640 trials.
