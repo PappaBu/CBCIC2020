@@ -16,9 +16,7 @@ All work was done using python 3.6.
 (A)  within subject classification (P01 - P08) 
 
 1. Each 8-second trial was filtered at 4-38 Hz (filtfilt, butter IIR 4 order).
-
 2. Each 8-second trial was baselined (baseline 0-4 sec).
-
 3. The first 3 seconds were cut off from each trial (8-sec -> 5 sec).
 
 4. The 80 original training trials were divided into training and test sets (40/40).
